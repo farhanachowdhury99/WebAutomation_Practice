@@ -1,12 +1,9 @@
 package amazon;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.net.PortUnreachableException;
-
-public class BestSellerTest extends BestSeller{
+public class SubHeaderTest extends SubHeader {
     @Test
     public void testAmazonLogo(){
         checkAmazonLogo();

@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import javax.swing.*;
 
-public class BestSeller {
+public class SubHeader {
     WebDriver driver;
     String amazonUrl = "https://www.amazon.com/";
     String bestSellersLocator = "Best Sellers";
