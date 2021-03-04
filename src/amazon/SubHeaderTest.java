@@ -19,6 +19,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText = driver.getTitle();
         Assert.assertEquals(actualText, expectedText, "Best sellers link on the sub-header is not working as expected");
     }
+
     @Test
     public void testBestSellerAppliancesLink(){
         checkBestSellerAppliancesLink();
@@ -26,6 +27,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText = driver.getTitle();
         Assert.assertEquals(actualText, expectedText, "Best sellers appliances Link is not working");
     }
+
     @Test
     public void testBestSellersBooksLink(){
         checkBestSellerBooksLink();
@@ -33,6 +35,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText= driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Best selles Books Link is not working");
     }
+
     @Test
     public void testBestSellerDishwasherLink(){
         checkBestSellerDishwashersLink();
@@ -40,6 +43,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Best sellers dishwashers Link is not working");
     }
+
     @Test
     public void testBestSellerAppsAndGames(){
         checkAppsAndGamesLink();
@@ -54,8 +58,8 @@ public class SubHeaderTest extends SubHeader {
         String expectedText="Gold Box Deals | Today's Deals - Amazon.com";
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Today's deals link  is not working");
-
     }
+
     @Test
     public void testShopAllDealsLink(){
         checkShopAllDealsLink();
@@ -63,6 +67,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"All deals link is not  working");
     }
+
     @Test
     public void testAutomotiveLink(){
         checkAutomotiveLink();
@@ -70,6 +75,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Automotive link is not  working");
     }
+
     @Test
     public void testCouponsLink(){
         checkCouponsLink();
@@ -77,6 +83,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Coupons link under Today's Deals is not  working as expected");
     }
+
     @Test
     public void testDigitalDealsLink(){
         checkDigitalDealsLink();
@@ -84,6 +91,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Digital deals link under Today's Deals is not  working as expected ");
     }
+
     @Test
     public void testRenewedDeals(){
     checkRenewedDeals();
@@ -91,6 +99,7 @@ public class SubHeaderTest extends SubHeader {
     String expectedText=driver.getTitle();
     Assert.assertEquals(actualText,expectedText,"Renewed deals link is not working");
     }
+
     @Test
     public void testElectronicsLink(){
         checkElectronicsLink();
@@ -98,6 +107,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText," Office electronics link is not working");
     }
+
     @Test
     public void testFashionLink(){
         checkFashionLink();
@@ -105,6 +115,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
        Assert.assertEquals(actualText,expectedText,"Womens link is not working");
     }
+
     @Test
     public void testAmazonDevicesLink(){
         checkAmazonDevicesLink();
@@ -112,6 +123,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Link is not working");
     }
+
     @Test
     public void testTextbooksLink(){
         checkTextbookLink();
@@ -119,6 +131,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Textbook link is not working");
     }
+
     @Test
     public void testKindleBooksLink(){
         checkKindleBooks();
@@ -126,14 +139,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Kindle eBook link is not working");
     }
-//    @Test
-//    public void testPrimeReading() throws InterruptedException {
-//        checkPrimeReadingLink();
-//        String expectedText="Prime Reading";
-//        Thread.sleep(2000);
-//        String actualText=driver.findElement(By.linkText("Prime Reading")).getText();
-//        Assert.assertEquals(actualText,expectedText,"Link is not working");
-//    }
+
     @Test
     public void testOutletLink(){
         checkOutletLink();
@@ -141,6 +147,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Amazon outlet link is not working");
     }
+
     @Test
     public void testCheckBeautyAndPersonalCare(){
         checkBeautyAndPersonalCare();
@@ -148,6 +155,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Amazon beauty and personal care link is not working");
     }
+
     @Test
     public void testCheckMakeupLink(){
         checkMakeupLink();
@@ -155,6 +163,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Makeup link is not working");
     }
+
     @Test
     public void testBestSellerDigitalMusic(){
         checkBestSellerDigitalMusic();
@@ -178,6 +187,7 @@ public class SubHeaderTest extends SubHeader {
     String actualText=driver.getTitle();
     Assert.assertEquals(actualText,expectedText,"Award winner books link is not working");
     }
+
     @Test
     public void testBestBooksOfTheMonth(){
         checkBestBooksOfTheMonth();
@@ -185,6 +195,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Best books of the month link is not working");
     }
+
     @Test
     public void testKindleBookDeals(){
         checkKindleBookDealsLink();
@@ -192,6 +203,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Best books of the month link is not working");
     }
+
     @Test
     public void testNewsstandLink(){
         checkNewsstandLink();
@@ -199,6 +211,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Kindle newsstand link is not working");
     }
+
     @Test
     public void testProfessionalBeautyLink(){
         checkProfessionalBeauty();
@@ -206,6 +219,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Best sellers professional beauty link is not working");
     }
+
     @Test
     public void testBestSellersPersonalCare(){
       checkBestSellersPersonalCare();
@@ -214,6 +228,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Best sellers personal care link is not working");
     }
+
     @Test
     public void testBestSellersGiftCardLink(){
         checkBestSellersGiftCardLink();
@@ -221,6 +236,7 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Best sellers gift card link is not working");
     }
+
     @Test
     public void testBirthdayGiftList(){
         checkBirthdayGiftList();
@@ -228,10 +244,6 @@ public class SubHeaderTest extends SubHeader {
         String actualText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Birthday gift list link is not working");
     }
-
-
-
-
 
     }
 
